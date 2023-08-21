@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+form {
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.text {
+  color: #4a4a4a;
+}
+
+img {
+  height: 70px;
+}
+
+.input-container {
+  margin: 20px;
+}
+
+.input-group {
+  position: relative;
+  display: inline-block;
+}
+
+.input-field:focus,
+.input-field:hover {
+  border-color: #c23a53;
+}
+
+.input-label {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #b40d2b;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.input-field {
+  width: 385px;
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid #c23a53;
+  border-radius: 5px;
+}
+
+.input-field:focus {
+  border-color: #c23a53;
+}
+
+.input-field:focus + .input-label {
+  top: -11px;
+  font-size: 12px;
+  color: #b40d2b;
+}
+
+.either {
+  margin: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #b00020;
+}
+
+.Continue {
+  background-color: #fab15f;
+  color: white;
+  font-size: 16px;
+  width: 435px;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: 700;
+}
+
+.Continue:hover {
+  transform: translateY(-3px);
+}
+
+.facebook-button {
+  display: flex;
+  align-items: center;
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 16px;
+  font-size: 16px;
+  width: 438px;
+  cursor: pointer;
+  margin-left: 115px;
+  margin: 20px auto;
+  transition: background-color 0.3s ease;
+}
+
+.facebook-text {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.facebook-button i {
+  margin-right: 10px;
+}
+
+.facebook-button:hover {
+  background-color: #1564c2;
+}
+
+span {
+  margin-left: 110px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.bottom_logo {
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    margin-top: 3rem;
+    margin: 0 auto;
+  }
+
+  .input-field,
+  .Continue,
+  .facebook-button {
+    width: 400px;
+  }
+}
