@@ -246,7 +246,7 @@ input:hover {
 
 .right-container {
   height: 100%;
-  background-image: url(./_images/right\ bg.png);
+  background-image: url(./dg_Images/right\ bg.png);
   background-position: center;
   background-size: cover;
   transition: background-image 5s ease-in-out;
